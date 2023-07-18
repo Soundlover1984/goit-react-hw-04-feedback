@@ -1,0 +1,55 @@
+.options {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  margin-top: 16px;
+}
+
+.optionsBtn {
+  color: #000000;
+  border: #5f5c59 solid 2px;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-size: 24px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.optionsBtn:hover,
+.optionsBtn:focus {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.goodBtn {
+  background-color: #9ACD32;
+}
+
+.neutralBtn {
+  background-color: #FFFF00;
+}
+
+.badBtn {
+  background-color:#FF0000;
+}
+
+.goodBtn:hover,
+.goodBtn:focus {
+  background-color: #34C924;
+}
+
+.neutralBtn:hover,
+.neutralBtn:focus {
+  background-color: #FFD700;
+}
+
+.badBtn:hover,
+.badBtn:focus {
+  background-color: #DC143C;
+}

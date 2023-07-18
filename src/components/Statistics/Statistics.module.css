@@ -1,0 +1,35 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  margin-top: 15px;
+  width: 376px;
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  border-radius: 8px;
+  border: #5f5c59 solid 2px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  animation-name: appearance;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.statistics__item {
+  padding: 5px 10px;
+  font-size: 22px;
+  border-radius: 8px;
+  border: #5f5c59 solid 2px;;
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
